@@ -3,7 +3,7 @@ This project converts an Ideazboard to a CSV by putting stickies from a section 
 
 ## Setup
 1. Install dependencies `pip install -r requirements.txt`
-2. Ensure geckodriver is in your PATH. Driver can be download here [https://github.com/mozilla/geckodriver/releases]
+2. Ensure geckodriver is in your PATH. Driver can be download here https://github.com/mozilla/geckodriver/releases
 
 ## Run Application
 1. `python exportToCsv.py`
