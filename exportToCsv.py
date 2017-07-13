@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import requests
 
-url = raw_input("Enter a ideazboard url: ")
+url = raw_input("Enter a ideaboardz url: ")
 browser = webdriver.Firefox(executable_path = '/Users/DFieldFL/bin/geckodriver')
 browser.get(url)
 time.sleep(4)
