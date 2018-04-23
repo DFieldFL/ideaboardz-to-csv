@@ -4,9 +4,10 @@ import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import requests
+from config import *
 
 url = raw_input("Enter a ideaboardz url: ")
-browser = webdriver.Firefox(executable_path = '/Users/DFieldFL/bin/geckodriver')
+browser = webdriver.Firefox(executable_path = GECKO_DRIVER)
 browser.get(url)
 time.sleep(4)
 soup = BeautifulSoup(browser.page_source, "html.parser")

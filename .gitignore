@@ -1,0 +1,4 @@
+config.py
+out.csv
+geckodriver.log
+*.pyc

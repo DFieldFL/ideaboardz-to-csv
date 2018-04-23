@@ -5,6 +5,7 @@ This project converts an Ideaboardz to a CSV by putting stickies from a section 
 1. Install dependencies `pip install -r requirements.txt`
 2. Install Firefox browser
 3. Ensure geckodriver is in your PATH. Driver can be download here https://github.com/mozilla/geckodriver/releases
+4. Copy `config.template.py` to `config.py` and modify `GECKO_DRIVER` location match where you put the geckodriver
 
 ## Run Application
 1. `python exportToCsv.py`
